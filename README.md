@@ -6,5 +6,5 @@ Calculating mean coverage and &ge; 10x coverage depth for each coding gene of a 
  <p><code> bedtools bamtobed -i file_sorted.bam > file_sorted.bed</code></p>
  <p>To compute depth coverage at each position of the genome with bedtools genomecov, you must specified a text file containing the list of chromosomes and corresponding length concomitantly with the bed file. A list_chromosomes.txt file for the Plasmodium falciparum species (version 39 on PlasmoDB) is provided in the data directory.</p>
  <p><code> bedtools genomecov -d -i file_sorted.bed -g list_chromosomes.txt  > file_coverage.txt</code></p>
- <h3>2. Calculate mean coverage and &ge; 10x coverage depth for each coding gene of a genome</h3>
+ <h3>2. Calculating the mean coverage of each coding gene,and the percentage of coding gene covered &ge; 10x depth</h3>
  <p>in progress...</p>
