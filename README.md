@@ -2,7 +2,7 @@
 <p>An algorithm for calculating the coverage depth for each coding gene and the percentage of each gene covered at &ge; 10X depth.<br>
  The ouput file will give a list of gene identifiers with the corresponding mean coverage and their proportion covered at &ge; 10X depth.<br>
  We suppose you produced a <i>sorted.bam</i> file at this step (for example using Samtools).<br>
- The algorithm was written for <i><b>Plasmodium falciparum</b></i> species, but may also be used for other <i><b>Plasmodium</b></i> species and <b>other organisms</b> (by supplying <i>fasta</i> and <i>gff</i> files).</p>
+ The algorithm was written for <i><b>Plasmodium falciparum</b></i> species, but can also be used for other <i><b>Plasmodium</b></i> species and <b>other organisms</b> (by supplying <i>fasta</i> and <i>gff</i> files).</p>
 <br>
  <h3>1. Preparing a per-base coverage file for Scan_gene_coverage analysis</h3>
  <p>Prior to compute depth coverage at each position of the genome, you must convert your <i>sorted.bam</i> file into a <i>sorted.bed</i> file with bedtools bamtobed:</p>
