@@ -1,6 +1,6 @@
 # Scan_gene_coverage
 <p>An algorithm for calculating the coverage depth for each coding gene and the percentage of each gene covered at &ge; 10X depth.<br>
- The ouput file will give a list of identifier genes with the corresponding length, the mean coverage, and the proportion covered at &ge; 10X depth.<br>
+ The ouput file will give a list of gene identifiers with the corresponding mean coverage and their proportion covered at &ge; 10X depth.<br>
  We suppose you produced a <i>sorted.bam</i> file at this step (for example using Samtools).</p>
 <br>
  <h3>1. Preparing a per-base coverage file for Scan_gene_coverage analysis</h3>
