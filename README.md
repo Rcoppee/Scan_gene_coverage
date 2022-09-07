@@ -17,4 +17,5 @@
  <br>
  <h3>3. Citation</h3>
  <p>If you use this program for your own work, please cite:</p>
- <p>Coppée et al. 5WBF: A low-cost and straightforward whole blood filtration method suitable for whole-genome sequencing of <i>Plasmodium falciparum</i> clinical isolates. (2021) In preparation.</i></p>
+ <p>Coppée et al. 5WBF: A low-cost and straightforward whole blood filtration method suitable for whole-genome sequencing of <i>Plasmodium falciparum</i> clinical isolates. (2022) Malaria Journal. DOI: 10.1186/s12936-022-04073-1</i></p>
+ <p>https://malariajournal.biomedcentral.com/articles/10.1186/s12936-022-04073-1</p>
